@@ -1,0 +1,140 @@
+body {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  background: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgb(149, 72, 0) 0%,
+    rgb(164, 79, 0) 15.9%,
+    rgb(177, 113, 53) 15.9%,
+    rgb(175, 112, 54) 24.4%,
+    rgb(19, 30, 37) 24.5%,
+    rgb(19, 30, 37) 66%
+  );
+}
+
+hr {
+  margin: 0;
+  border-color: rgb(89, 88, 88);
+  width: 40px;
+  display: block;
+  margin: auto;
+}
+
+.main-weather-line {
+  margin: 0;
+  border: 0ch;
+}
+#search-city {
+  border: 1px;
+  border-color: rgb(169, 169, 169);
+  border-radius: 30px;
+  height: 40px;
+  width: 400px;
+  margin: 35px 20px 20px 50px;
+  background-color: #1e1e1e;
+}
+.contanier {
+  display: block;
+  background-color: black;
+  border-radius: 15px;
+  width: 1000px;
+  height: 500px;
+  margin: 150px auto;
+  box-shadow: 8px 8px 20px rgba(126, 126, 126, 0.5);
+}
+
+.current-city {
+  margin: 40px 10px 20px 30px;
+  float: left;
+  font-size: larger;
+}
+
+.switch-mode {
+  display: block;
+  border: 1px;
+  border-color: rgb(169, 169, 169);
+  border-radius: 30px;
+  margin: 35px 40px 20px 100px;
+  float: right;
+  height: 40px;
+  width: 60px;
+  background-color: #1e1e1e;
+}
+
+.switch-mode-icon {
+  text-align: center;
+  margin: 8px 5px 3px 5px;
+}
+
+.days-link {
+  margin: 20px 10px 20px 40px;
+  float: left;
+  display: grid;
+  grid-template-columns: 100px 150px 150px;
+}
+
+.weather {
+  display: block;
+  background-color: #bbd8ec;
+  border-radius: 30px;
+  color: black;
+  width: 250px;
+  height: 250px;
+}
+
+.current-data {
+  background-color: #adcade;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  font-size: 18pt;
+  font-weight: normal;
+  padding: 15px;
+  text-align: center;
+}
+
+.current-temperature {
+  font-size: 36pt;
+  font-weight: 600;
+  text-align: left;
+  margin: 15px 0px 20px 30px;
+  float: left;
+  width: fit-content;
+  height: fit-content;
+}
+
+.weather-icon-main {
+  font-size: 54pt;
+  font-weight: bold;
+  margin: 0px 30px 20px 5px;
+  float: right;
+}
+.add-weather {
+  font-size: 8pt;
+  display: grid;
+  grid-template-columns: 120px 120px;
+  margin: 125px 5px 5px 15px;
+}
+
+.main-weather {
+  display: grid;
+  grid-template-columns: 275px 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin: 75px 10px 20px 30px;
+}
+
+.weather-icon {
+  font-size: 35pt;
+  margin: 30px 0px 5px 0px;
+}
+
+.weather-next-days {
+  width: 90px;
+  height: 250px;
+  background-color: #1e1e1e;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 12pt;
+}
+
+.temp {
+  font-size: 21pt;
+}
